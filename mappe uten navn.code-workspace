@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../gløde programering"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "gløde programering"
+	}
+}
