@@ -9,7 +9,7 @@ body {
     width: 555px;
     height: auto;
     position: absolute; /* Setter bildet til absolutt posisjonering */
-    top: 124%; /* Plasserer bildet i toppen av body */
+    top: 15%; /* Plasserer bildet i toppen av body */
     right: 35%; /* Plasserer bildet i høyre side av body */
     background-image: url("andini med kanin.jpg"); /* Legger til bakgrunnsbilde */
     background-size: cover; /* Sørger for at bakgrunnsbildet dekker hele elementet */
@@ -20,20 +20,18 @@ body {
     width: 390px;
     height: auto;
     position: absolute; /* Setter bildet til absolutt posisjonering */
-    top: 124%; /* Plasserer bildet i toppen av body */
-    right: 80; /* Plasserer bildet i høyre side av body */
+    top: 15%; /* Plasserer bildet i toppen av body */
+    right: 73%; /* Plasserer bildet i høyre side av body */
     background-image: url("andini med kanin.jpg"); /* Legger til bakgrunnsbilde */
     background-size: cover; /* Sørger for at bakgrunnsbildet dekker hele elementet */
-    
-    
 }
 
-.andini-med-kanin {
-    width: 390px;
+.bilde-av-andini-og-kanin {
+    width: 146px;
     height: auto;
     position: absolute; /* Setter bildet til absolutt posisjonering */
     top: 0; /* Plasserer bildet i toppen av body */
-    right: 0; /* Plasserer bildet i høyre side av body */
+    right: 0%; /* Plasserer bildet i høyre side av body */
     background-image: url("andini med kanin.jpg"); /* Legger til bakgrunnsbilde */
     background-size: cover; /* Sørger for at bakgrunnsbildet dekker hele elementet */
     transform: rotate(-5deg);
@@ -41,306 +39,37 @@ body {
 
 p {
     color: white;
-    text-shadow: 2px 3px blue;
+    justify-content: flex-end;
+    height: 7px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+h1 {
+    
+    color: white;
 }
 
 .container {
-    width: 50%; /* Sett bredden etter behov */
-    margin: 0 auto; /* Sentrer containeren horisontalt */
+    display: flex;
 }
 
-img {
-    float: left; /* Flyt bildet til venstre */
-    margin-right: 20px; /* Legg til en margin til høyre for bildet */
+.left-content {
+    width: 45%; /* Justerer bredden etter behov */
+    justify-content: flex-start; /* Plasserer innholdet til venstre */
+    align-items: flex-start; /* Justerer vertikal plassering */
 }
 
-.Bor-du-i-Bergen {
-    overflow: hidden; /* Hindrer at teksten kummer under bildet */
-    text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 113%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-2deg);
+.right-content {
+    width: 45%; /* Justerer bredden etter behov */
+    justify-content: flex-end; /* Plasserer innholdet til høyre */
+    align-items: flex-end; /* Justerer vertikal plassering */
 }
-
-.juletrefest {
-    text-align: right;
-    position: absolute;
-    right: 1%;
-    top: 123%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-}
-
-.eller-andre-barnearrangement
-
+.til-venstre
 {
-
-    text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 133%;
-    transform: translate(-50%, -50%);
-    
-    transform: rotate(-1deg);
-}
-
-.jeg-har-drevet-med
-
-{
-
-    text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 143%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-
-}
-
-.Sett-prikken-over-i-en {
-   
-    text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 153%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-}
-.fortryllende
-{
-
-    text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 163%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-
-}
-
-.barne-og-familieshow
-{
-    text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 173%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);}
-
-    .barneunderholdning-siden-1994
-
-    { text-align: right;
-        position: absolute;
-        right: 3%;
-        top: 183%;
-        transform: translate(-50%, -50%);
-        transform: rotate(-1deg);}
-
-    .vant-min-første-lokale-talentiade
-{
-    text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 193%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-
-}
-
-.tryllingen-blitt-en-del-av-meg
-
-{
-
-    text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 203%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-
-}
-
-.en-livsstil-som-jeg-aldri-kan-slutte-med
-
-{
-    text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 213%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-}
-
-.Jeg-føler-meg-privilegert-som-får-jobb
-
-{
-    text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 223%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-
-}
-
-.med-det-jeg-brenner-mest-for-og-håper
-
-{  text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 233%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-}
-
-.og-tror-at-dette-er-noe-som-gjenspeiles
-{  text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 243%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-}
-
-.i-kvaliteten-på-det-jeg-leverer
-
-{  text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 253%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-}
-
-.Mitt-mål-er-at-du-som-arrangør-kan-slappe-helt
-
-{  text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 263%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-}
-
-.av-og-se-på-at-selv-de-yngste-gjestene-i-ditt-arrangement
-{
-    text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 273%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-}
-
-.av-og-se-på-at-selv-de-yngste-gjestene-i-ditt-arrangement
-{ 
-     text-align: right;
-    position: absolute;
-    right: 3%;
-    top: 283;
-    transform: translate(-50%, -50%);
-    transform: rotate(-1deg);
-
-}
-
-.koser-seg-med-ekte-magi-massevis-av-humor-ballongfigurer
-
-{ 
-    text-align: right;
-   position: absolute;
-   right: 3%;
-   top: 293%;
-   transform: translate(-50%, -50%);
-   transform: rotate(-1deg);
-
-}
-
-.levende-kanin-og-viltre-sprell-i-full-visshet-om-at-arrangementet
-
-{ 
-    text-align: right;
-   position: absolute;
-   right: 3%;
-   top: 303%;
-   transform: translate(-50%, -50%);
-   transform: rotate(-1deg);
-
-}
-
-.er-en-suksess.-For-meg-er-det-essensielt-at-barna-blir-engasjert
-
-{ 
-    text-align: right;
-   position: absolute;
-   right: 3%;
-   top: 313%;
-   transform: translate(-50%, -50%);
-   transform: rotate(-1deg);
-
-}
-
-.og-får-delta-aktivt-under-showet.-Jeg-er-aldri-fornøyd-etter
-
-{ 
-    text-align: right;
-   position: absolute;
-   right: 3%;
-   top: 323%;
-   transform: translate(-50%, -50%);
-   transform: rotate(-1deg);
-
-}
-
-.en-opptreden-uten-at-barna-er-både-hese-svette
-
-{ 
-    text-align: right;
-   position: absolute;
-   right: 3%;
-   top: 333%;
-   transform: translate(-50%, -50%);
-   transform: rotate(-1deg);
-
-}
-
-.storøyd-og-har-krampe-i-alle-lattermusklene
-
-{ 
-    text-align: right;
-   position: absolute;
-   right: 3%;
-   top: 343%;
-   transform: translate(-50%, -50%);
-   transform: rotate(-1deg);
-
-}
-h1 {
-    color: white;
-    text-align: center;
-    text-shadow: 5px 2px 4px blue;
-}
-
-.er-en-suksess.-For-meg-er-det-essensielt-at-barna-blir-engasjer
-
-{ 
-    text-align: right;
-   position: absolute;
-   right: 3%;
-   top: 353%;
-   transform: translate(-50%, -50%);
-   transform: rotate(-1deg);
-
-}
-.og-får-delta-aktivt-under-showet.-Jeg-er-aldri-fornøyd-etter {
-    margin-bottom: 50px; /* Legg til en margin-bunn for å øke avstanden mellom teksten og bildet */
-
-    text-align: right;
-   position: absolute;
-   right: 3%;
-   top: 363%;
-   transform: translate(-50%, -50%);
-   transform: rotate(-1deg);
+flex-direction: column;
+align-items: first baseline;
 }
 
