@@ -45,7 +45,9 @@ p {
     flex-direction: column;
     flex-direction: row;
     align-items: flex-end;
-}
+        font-size: 12px; /* Endre størrelsen til det du ønsker */
+    }
+    
 
 h1 {
     
