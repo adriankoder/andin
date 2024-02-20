@@ -82,6 +82,6 @@ align-items: first baseline;
 /* Media query for mindre skjermstørrelser, for eksempel mobil */
 @media only screen and (max-width: 600px) {
     .small-text {
-        font-size: 14px; /* Mindre størrelse for mobil */
+        font-size: 10px; /* Mindre størrelse for mobil */
     }
 }
