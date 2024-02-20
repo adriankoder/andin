@@ -45,12 +45,10 @@ p {
     flex-direction: column;
     flex-direction: row;
     align-items: flex-end;
-        font-size: 12px; /* Endre størrelsen til det du ønsker */
-    }
-    
+    font-size: 12px; /* Endre størrelsen til det du ønsker */
+}
 
 h1 {
-    
     color: white;
 }
 
@@ -69,19 +67,15 @@ h1 {
     justify-content: flex-end; /* Plasserer innholdet til høyre */
     align-items: flex-end; /* Justerer vertikal plassering */
 }
-.til-venstre
-{
-flex-direction: column;
-align-items: first baseline;
-}
-/* Normal stil */
-.small-text {
-    font-size: 16px; /* Størrelse for desktop */
+
+.til-venstre {
+    flex-direction: column;
+    align-items: first baseline;
 }
 
 /* Media query for mindre skjermstørrelser, for eksempel mobil */
 @media only screen and (max-width: 600px) {
-    .small-text {
+    p {
         font-size: 14px; /* Mindre størrelse for mobil */
     }
 }
