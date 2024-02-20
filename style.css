@@ -27,7 +27,7 @@ body {
 }
 
 .bilde-av-andini-og-kanin {
-    width: 146px;
+    width: 136px;
     height: auto;
     position: absolute; /* Setter bildet til absolutt posisjonering */
     top: 0; /* Plasserer bildet i toppen av body */
